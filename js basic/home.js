@@ -1,4 +1,4 @@
-console.log('hello')
+ console.log('hello')
 
 // alert('yooo');
 
@@ -181,7 +181,7 @@ console.log(student.studentinfo());
 // 15-23 is my idea of demographic
 // && and
 // || or
-var age= prompt('what is your age ?')
+var age= 45;
 if ((age >=18) && (age <=35)){
     status = 'traget demo'
     console.log(status);
@@ -190,3 +190,20 @@ if ((age >=18) && (age <=35)){
      console.log(status);
     }
 }
+
+// switch statements
+  
+switch (6){
+     case 0:
+         text ='weekend';
+          break;
+     case 5:
+         text ='weekend';
+          break;
+     case 6:text ='weekend';
+          break;
+     default:
+         text  ='weekday';
+}
+
+console.log(text);
