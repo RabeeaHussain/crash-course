@@ -9,3 +9,6 @@ function Ageindays(){
     document.getElementById('flex-box-result').appendChild(h1);        
 }
 
+function reset() {
+    document.getElementById('Ageindays').remove();
+}
