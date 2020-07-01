@@ -12,3 +12,11 @@ function Ageindays(){
 function reset() {
     document.getElementById('Ageindays').remove();
 }
+ 
+//Challenge 2: Cat generator
+function catgenerator(){
+var image = document.createElement('img');
+var div = document.getElementById('flex-cat-gen');
+image.src="https://media2.giphy.com/media/H4DjXQXamtTiIuCcRU/giphy.gif";
+div.appendChild(image);
+}
