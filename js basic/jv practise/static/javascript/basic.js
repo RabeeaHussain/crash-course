@@ -25,4 +25,17 @@ div.appendChild(image);
 function rpsgame(yourchoice) {
     console.log(yourchoice);
    // var humanchoice, botchoice;
+   // humanchoice = yourchoice.id;
+   botchoice = numbertochoice(randToRpsInt());
+   console.log('botchoice-> ',botchoice)     
+   //result = decideWinner(humanchoice, botchoice); //(0,1) human lost / bot win
+   //message = finalmessage(result); // {'message':'you won!', 'color': 'green'}   
+   //rpsFrontEnd(yourchoice.id, botchoice, message);
 }
+ function randToRpsInt() {
+  return Math.floor (Math.random() * 3);
+ }
+
+ function numbertochoice(number) {
+     return ['rock', 'paper', 'scissor'] [number];
+ }
